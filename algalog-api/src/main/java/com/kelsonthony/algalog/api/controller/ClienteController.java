@@ -78,6 +78,7 @@ public class ClienteController {
 		}
 		
 		//clienteRepository.deleteById(clienteId);
+		//clienteRepository.deleteById(clienteId);
 		catalogoClienteService.excluir(clienteId);
 		
 		return ResponseEntity.noContent().build();
