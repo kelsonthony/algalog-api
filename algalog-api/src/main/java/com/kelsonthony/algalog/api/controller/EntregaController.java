@@ -33,6 +33,7 @@ public class EntregaController {
 	private EntregaRepository entregaRepository;
 	private SolicitacaoEntregaService solicitacaoEntregaService;
 	private FinalizacaoEntregaService finalizacaoEntregaService;
+	//private EntregaAssembler entregaAssembler;
 	private EntregaAssembler entregaAssembler;
 	
 	@PostMapping
