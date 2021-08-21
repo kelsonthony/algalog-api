@@ -29,6 +29,7 @@ import lombok.AllArgsConstructor;
 @RestController
 @RequestMapping("/entregas")
 //@RequestMapping("/entregas")
+//@RequestMapping("/entregas")
 public class EntregaController {
 	
 	private EntregaRepository entregaRepository;
